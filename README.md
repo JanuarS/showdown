@@ -72,6 +72,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Game Plan
 
-[ ] Register new user - Name, Email, School.
-[ ] User login/logout
-[ ] Set user as admin, scorekeeper, volunteer, participant.
+- [ ] Register new user 
+  - Name, Email, School.
+- [ ] User login/logout
+- [ ] Set user as admin, scorekeeper, volunteer, participant.
+- [ ] ScoreKeeper component
