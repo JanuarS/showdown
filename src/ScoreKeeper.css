@@ -1,5 +1,7 @@
 .ScoreKeeper {
     border: 2px solid black;
+    width: auto;
+    margin: auto;
 }
 
 .ScoreKeeper-button {

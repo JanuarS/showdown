@@ -12,8 +12,8 @@ const ScoreKeeper = (props) => {
             <button className="ScoreKeeper-button" onClick={() => setScore(score + 1)}>1 Point</button>
             <button className="ScoreKeeper-button" onClick={() => setScore(score + 2)}>2 Points</button>
             <button className="ScoreKeeper-button" onClick={() => setScore(score + 3)}>3 Points</button>
+            
             <button className="ScoreKeeper-undo" onClick={() => setScore(score - 1)}>UNDO</button>
-
             <button className="ScoreKeeper-upload">UPLOAD</button>
         </div>
     )
