@@ -4,7 +4,11 @@
     margin: auto;
 }
 
-.ScoreKeeper-button {
+.ScoreKeeper-buttons {
+    margin: 20px;
+}
+
+.ScoreKeeper-add {
     background-color: green;
     color: white;
     border-radius: 0.3rem;
@@ -13,6 +17,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
+    margin: 10px;
 }
 
 .ScoreKeeper-undo {
@@ -24,6 +29,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
+    margin: 10px;
 }
 
 .ScoreKeeper-upload {
@@ -35,4 +41,5 @@
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
+    margin: 10px;
 }
