@@ -2,6 +2,7 @@
     border: 2px solid black;
     width: auto;
     margin: auto;
+    display: inline-block;
 }
 
 .ScoreKeeper-buttons {
@@ -12,7 +13,7 @@
     background-color: green;
     color: white;
     border-radius: 0.3rem;
-    padding: 15px 32px;
+    padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;

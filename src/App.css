@@ -24,7 +24,7 @@
   color: white;
 }
 
-/* .ScoreKeeper {
+.match {
   display: flex;
   flex-direction: row;
-} */
+}

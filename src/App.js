@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hello World</h1>
-      <div className="ScoreKeeper">
+      <div className='match'>
         <ScoreKeeper team='Red Team'/>
         <h2>vs.</h2>
         <ScoreKeeper team='Blue Team'/>
