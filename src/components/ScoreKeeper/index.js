@@ -1,8 +1,15 @@
 import React, {useState} from "react";
 import "./style.css";
 
-const ScoreKeeper = (props) => {
-    const team = props.team;
+/*
+    ScoreKeeper creates an array of scores and renders the last score in the array, known as the most up-to-date score. 
+    
+    Add methods adds the score to the last index and pushes the result to the end of the array. The spread operator creates a new array reference for React to rerender the score. 
+
+    Undo method pops/removes the last index.
+*/
+
+const ScoreKeeper = ({team}) => {
     const [score, setScore] = useState([0]);
 
     const add1 = () => {
@@ -21,9 +28,6 @@ const ScoreKeeper = (props) => {
             setScore([...score]);
         }
     }
-    const upload = () => {
-        // upload score array to database.
-    }
 
     return (
         <div className="ScoreKeeper">
@@ -31,14 +35,13 @@ const ScoreKeeper = (props) => {
             <h1>{score[score.length - 1]}</h1>
             
             <div className="ScoreKeeper-buttons">
-                <button className="ScoreKeeper-add" onClick={add1}>1 Point</button>
-                <button className="ScoreKeeper-add" onClick={add2}>2 Points</button>
-                <button className="ScoreKeeper-add" onClick={add3}>3 Points</button>
+                <button className="ScoreKeeper-add" onClick={add1}>+1</button>
+                <button className="ScoreKeeper-add" onClick={add2}>+2</button>
+                <button className="ScoreKeeper-add" onClick={add3}>+3</button>
             </div>
 
             <div className="ScoreKeeper-buttons">
                 <button className="ScoreKeeper-undo" onClick={undo}>UNDO</button>
-                <button className="ScoreKeeper-upload" onClick={upload}>UPLOAD</button>
             </div>
         </div>
     );

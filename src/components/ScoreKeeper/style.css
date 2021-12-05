@@ -1,8 +1,16 @@
 .ScoreKeeper {
-    border: 2px solid black;
-    width: auto;
-    margin: auto;
     display: inline-block;
+    background-color: thistle;
+    color: white;
+    border: 2px solid black;
+    border-radius: 0%;
+    width: auto;
+    height: auto;
+    /* padding: ; */
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    font-size: 1em;
 }
 
 .ScoreKeeper-buttons {
@@ -23,18 +31,6 @@
 
 .ScoreKeeper-undo {
     background-color: red;
-    color: white;
-    border-radius: 0.3rem;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1rem;
-    margin: 10px;
-}
-
-.ScoreKeeper-upload {
-    background-color: blue;
     color: white;
     border-radius: 0.3rem;
     padding: 15px 32px;

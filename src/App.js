@@ -1,17 +1,15 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import ScoreKeeper from './components/ScoreKeeper/index';
+import Match from './components/Match/index'
+import UserForm from './components/UserForm';
 
 function App() {
   return (
     <div className="App">
       <h1>Hello World</h1>
-      <div className='match'>
-        <ScoreKeeper team='Red Team'/>
-        <h2>vs.</h2>
-        <ScoreKeeper team='Blue Team'/>
-      </div>
+      <UserForm />
+      <Match />
     </div>
   );
 }
