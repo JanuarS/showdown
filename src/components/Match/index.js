@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import ScoreKeeper from '../ScoreKeeper/index';
+import React from "react";
+import ScoreKeeper from "../ScoreKeeper/index";
 import "./style.css";
 
 /*
